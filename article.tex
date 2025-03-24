@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+
+% Font and encoding
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+% Language and typography
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{indentfirst}
+
+% Author and affiliation
+\usepackage{authblk}
+
+% Mathematics packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm} 
+\usepackage{bm}
+
+% Algorithms
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+
+% Bibliography
+\usepackage[style=ieee, backend=bibtex]{biblatex} 
+\addbibresource{reference.bib}
+
+% Custom spacing
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parskip}{0.5em plus 0.1em minus 0.1em}
+\setlength{\parindent}{15pt}
+
+% Graphics
+\usepackage{graphicx}
+\usepackage[colorlinks=true, citecolor=red, linkcolor=blue, urlcolor=cyan]{hyperref}
+
+% Shortcuts
+\usepackage{shortcuts}
+
+\title{Article Template}
+\author{Chenfei Huang}
+\affil{\small Academy of Mathematics and Systems Science, Chinese Academy of Sciences}
+\date{\vspace{-2em} \today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	~ \newline
+	\textbf{Keywords:} \LaTeX.
+\end{abstract}
+
+\section{Introduction}
+
+\printbibliography
+
+\end{document}
